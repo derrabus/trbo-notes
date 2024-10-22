@@ -11,15 +11,16 @@
 * Framework: Self-invented based on Slim/Pimple/Twig
     * Heavily inspired by ZF
 
-* No tests
-
-* No static code analysis
+* No CI for PHP
+    * No tests
+    * No static code analysis
+    * No enforced code-style
 
 * A lot of dead code
     * Code is commented out instead of removed
     * A lot of code that will break when executed, du to missing imports of global classes
 
-* Implicitly declared properties make it hard to navigate throughh the codebase.
+* Implicitly declared properties make it hard to navigate through the codebase.
 
 * The whole project resides in document root
 
