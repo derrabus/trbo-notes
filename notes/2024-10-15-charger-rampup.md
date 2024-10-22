@@ -1,4 +1,4 @@
-# 2024-10-26 Charger Codebase
+# 2024-10-25 Charger Codebase
 
 * Production system is an ancient Hetzner root server with PHP 5.6
     * Afraid of upgrading the host OS
@@ -9,7 +9,18 @@
     * "No one gave us the ticket for that yet"
 
 * Framework: Self-invented based on Slim/Pimple/Twig
+    * Heavily inspired by ZF
 
 * No tests
 
 * No static code analysis
+
+* A lot of dead code
+    * Code is commented out instead of removed
+    * A lot of code that will break when executed, du to missing imports of global classes
+
+* Implicitly declared properties make it hard to navigate throughh the codebase.
+
+* The whole project resides in document root
+
+* Frontend is being migrated from Angular to React
