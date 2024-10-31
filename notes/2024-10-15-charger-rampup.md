@@ -5,6 +5,9 @@
     * Apparently no ops/admin maintaining the server regularly
     * Devs work on PHP 8.1 locally, possibly with a different set of dependencies
 
+* MySQL 5.7 is used
+    * Upgrade blocker: Usage of `PASSWORD()` function
+
 * Plans to migrate to GCP are stalling
     * "No one gave us the ticket for that yet"
 
@@ -25,3 +28,8 @@
 * The whole project resides in document root
 
 * Frontend is being migrated from Angular to React
+
+* Security Issues
+    * API keys are MD5 hashes derived from Shop ID and Client ID
+    * API Keys cannot be changed or regenerated
+    * Passwords are hashed with MySQL's deprecated `PASSWORD()` function
