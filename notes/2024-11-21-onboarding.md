@@ -19,3 +19,9 @@
 * Aktuell: Jeder Layer === ein use-case
     * Sammlung von Workarounds
     * HTML-Layer zur Positionierung
+
+* TODO: Layer Settings
+
+* TODO: Close
+
+* TODO: Tracking
